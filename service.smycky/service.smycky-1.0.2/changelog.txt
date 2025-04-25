@@ -1,0 +1,8 @@
+version 1.0.1
+- Test automatické akutalizace
+
+version 1.0.1
+- První aktualizace
+
+version 1.0.0
+- První verze doplňku
