@@ -4,9 +4,9 @@
        provider-name="NoReason">
 	<extension point="xbmc.addon.repository" name="NoReason Repo">
 		<dir>
-			<info compressed="false">https://pigman91.github.io/noreason-repo/addons.xml</info>
-			<checksum>https://pigman91.github.io/noreason-repo/addons.xml.md5</checksum>
-			<datadir>https://pigman91.github.io/noreason-repo/</datadir>
+			<info compressed="false">https://noreasonict.github.io/noreason-repo/addons.xml</info>
+			<checksum>https://noreasonict.github.io/noreason-repo/addons.xml.md5</checksum>
+			<datadir>https://noreasonict.github.io/noreason-repo/</datadir>
 		</dir>
 	</extension>
     <extension point="xbmc.addon.metadata">
