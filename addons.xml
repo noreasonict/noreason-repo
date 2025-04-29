@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="service.dohled" name="NR - Dohled" version="1.0.3" provider-name="NoReason s.r.o.">
+<addon id="service.dohled" name="NR - Dohled" version="1.0.4" provider-name="NoReason s.r.o.">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
