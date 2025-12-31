@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="service.smycky" name="NR - Reklamni smycka" version="2.2.1" provider-name="NoReason s.r.o.">
+<addon id="service.smycky" name="NR - Reklamni smycka" version="2.2.2" provider-name="NoReason s.r.o.">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="service.dohled" version="2.4.0"/>
