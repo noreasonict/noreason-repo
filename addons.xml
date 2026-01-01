@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="service.smycky" name="NR - Reklamni smycka" version="2.2.2" provider-name="NoReason s.r.o.">
+<addon id="service.smycky" name="NR - Reklamni smycka" version="2.4.0" provider-name="NoReason s.r.o.">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="service.dohled" version="2.4.0"/>
+        <import addon="service.dohled" version="2.6.0"/>
     </requires>
     <extension point="xbmc.service" library="autoexec.py">
     </extension>
@@ -18,7 +18,7 @@
     </extension>
 </addon>
 
-<addon id="service.dohled" name="NR - Dohled" version="2.4.2" provider-name="NoReason s.r.o.">
+<addon id="service.dohled" name="NR - Dohled" version="2.6.4" provider-name="NoReason s.r.o.">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
