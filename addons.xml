@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="service.smycky" name="NR - Reklamni smycka" version="2.4.0" provider-name="NoReason s.r.o.">
+<addon id="service.smycky" name="NR - Reklamni smycka" version="3.0.0" provider-name="NoReason s.r.o.">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="service.dohled" version="2.6.0"/>
+        <import addon="service.dohled" version="3.0.0"/>
     </requires>
     <extension point="xbmc.service" library="autoexec.py">
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="cs_CZ">Reklamní smyčka</summary>
-        <description lang="cs_CZ">Služba pro aktualizaci reklamní smyčky</description>
+        <summary lang="cs_CZ">Reklamní smyčka (Proxy mode)</summary>
+        <description lang="cs_CZ">Proxy verze - funkcionalita přesunuta do service.dohled 2.7.0+</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
@@ -18,14 +18,14 @@
     </extension>
 </addon>
 
-<addon id="service.dohled" name="NR - Dohled" version="2.6.11" provider-name="NoReason s.r.o.">
+<addon id="service.dohled" name="NR - Dohled" version="3.0.0" provider-name="NoReason s.r.o.">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
     <extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="cs_CZ">Dohled nad smyčkou</summary>
-        <description lang="cs_CZ">Služba pro dohled nad reklamní smyčkou</description>
+        <summary lang="cs_CZ">Kompletní dohled a přehrávání smyček</summary>
+        <description lang="cs_CZ">Služba pro monitoring, přehrávání a správu reklamních smyček. Nahrazuje service.smycky.</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
