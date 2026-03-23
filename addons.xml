@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="service.smycky" name="NR - Reklamni smycka" version="3.0.0" provider-name="NoReason s.r.o.">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="service.dohled" version="3.0.0"/>
-    </requires>
-    <extension point="xbmc.service" library="autoexec.py">
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="cs_CZ">Reklamní smyčka (Proxy mode)</summary>
-        <description lang="cs_CZ">Proxy verze - funkcionalita přesunuta do service.dohled 2.7.0+</description>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-        <license>GNU GENERAL PUBLIC LICENSE Version 2</license>
-    </extension>
-</addon>
-
-<addon id="service.dohled" name="NR - Dohled" version="3.4.3" provider-name="NoReason s.r.o.">
+<addon id="service.dohled" name="NR - Dohled" version="3.4.4" provider-name="NoReason s.r.o.">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
