@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="service.dohled" name="NR - Dohled" version="3.4.5" provider-name="NoReason s.r.o.">
+<addon id="service.dohled" name="NR - Dohled" version="3.4.6" provider-name="NoReason s.r.o.">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
